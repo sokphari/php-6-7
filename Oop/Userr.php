@@ -11,10 +11,12 @@
             $this->password = $password;
         }
         public function OutputData(){
-           echo $this->name; echo "<br>";
-           echo $this->gender; echo "<br>";
-           echo $this->email; echo "<br>";
-           echo $this->password;
+           echo "
+            <h2>$this->name</h2><br>
+            <h2>$this->gender</h2><br>
+            <h2>$this->email</h2><br>
+            <h2>$this->password</h2>
+            ";
         }
     }
     // $user = new Userr($name,$gender,$email,$password);
